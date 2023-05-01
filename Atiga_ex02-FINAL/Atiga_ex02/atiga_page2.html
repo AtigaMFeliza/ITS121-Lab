@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta http-equiv="Real Estate" content="text/html; charset=utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <title>Astra Real Estate</title>
+        <style>
+            body {
+            background-color: #BFACE2;
+        }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>Astra Real Estate</h1>
+        </header>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="atiga_main1.html" class="active">Home</a>
+                <a href="atiga_page2.html">Services</a>
+                <a href="floorplan apartment.html">FloorPlan</a>
+                <a href="contact page.html">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+        </nav>
+        <section>
+        <h2>Services</h2>
+        <hr />
+        <h3>REGISTRATION FORM</h3>
+        <hr />
+        <form method="post" action="mailto:mflatiga@mymail.mapua.edu.ph">
+            <fieldset><legend>Log Information</legend>
+            <br />
+            Username:<input type="text" name="username" size="15" maxlength="20">
+            <br />
+            <br />
+            Password:<input type="password" name="password" size="15" maxlength="20">
+            <br />
+            </fieldset>
+            <br />
+            <br />
+            <fieldset><legend>Personal Information</legend>
+                First Name:<input type="text" name="pangalan" size="15" maxlength="20">
+                <br />
+                <br />
+                Last Name:<input type="text" name="pangalan" size="15" maxlength="20">
+                <br />
+                <br />
+                Age:<input type="text" name="edad" size="2" maxlength="3">
+                <br />
+                <br />
+                Sex:<input type="radio" name="gender" value="lalaki">Male
+                    <input type="radio" name="gender" value="babae">Female
+                <br />
+                <br />
+                Email Address:<input type="email" name="email add" size="25" maxlength="20">
+                <br />
+                <br />
+                Phone Number:<input type="text" name="phone num" size="11" maxlength="11">
+                <br />
+                <br />
+                Birthday:
+                <select id="day">
+                    <option> 1 </option>
+                    <option> 2 </option>
+                    <option> 3 </option>
+                    <option> 4 </option>
+                    <option> 5 </option>
+                    <option> 6 </option>
+                    <option> 7 </option>
+                    <option> 8 </option>
+                    <option> 9 </option>
+                    <option> 10 </option>
+                    <option> 11 </option>
+                    <option> 12 </option>
+                    <option> 13 </option>
+                    <option> 14 </option>
+                    <option> 15 </option>
+                    <option> 16 </option>
+                    <option> 17 </option>
+                    <option> 18 </option>
+                    <option> 19 </option>
+                    <option> 20 </option>
+                    <option> 21 </option>
+                    <option> 22 </option>
+                    <option> 23 </option>
+                    <option> 24 </option>
+                    <option> 25 </option>
+                    <option> 26 </option>
+                    <option> 27 </option>
+                    <option> 28 </option>
+                    <option> 29 </option>
+                    <option> 30 </option>
+                    <option> 31 </option>
+                    </select>
+                
+                <select id="month">
+                    <option> Jan </option>
+                    <option> Feb </option>
+                    <option> Mar </option>
+                    <option> Apr </option>
+                    <option> May </option>
+                    <option> Jun </option>
+                    <option> Jul </option>                        
+                    <option> Aug </option>
+                    <option> Sept </option>
+                    <option> Oct </option>
+                    <option> Nov </option>
+                    <option> Dec </option>
+                    </select>
+                
+                <select id="year">
+                    <option> 1985 </option>
+                    <option> 1986 </option>
+                    <option> 1987 </option>
+                    <option> 1988 </option>
+                    <option> 1989 </option>
+                    <option> 1990 </option>                        
+                    <option> 1991 </option>
+                    <option> 1992 </option>
+                    <option> 1993 </option>
+                    <option> 1994 </option>
+                    <option> 1995 </option>
+                    <option> 1996 </option>
+                    <option> 1997 </option>
+                    <option> 1998 </option>
+                    <option> 1999 </option>
+                    <option> 2000 </option>
+                    <option> 2001 </option>
+                    <option> 2002 </option>
+                    </select>
+                </fieldset>
+            <hr />
+            <fieldset><legend>Home Liking</legend>
+            <h4>Which of these rooms are necessary in your home?</h4>
+            <dl>
+            <dt><input type="checkbox" name="Home Offices" value="Home Offices">Home Offices</dt>
+            <dt><input type="checkbox" name="Playroom" value="Playroom">Playroom</dt>
+            <dt><input type="checkbox" name="Home Theaters" value="Home Theaters">Home Theaters</dt>
+            <dt><input type="checkbox" name="Guest Rooms" value="Guest Rooms">Guest Rooms</dt>
+            <dt><input type="checkbox" name="Laundry Room" value="Laundry Room">Laundry Room</dt>
+            <dt><input type="checkbox" name="Exercise Room" value="Exercise Room">Exercise Room</dt>
+            <dt><input type="checkbox" name="Library" value="Library">Library</dt> 
+            <dt><input type="checkbox" name="Garage" value="Garage">Garage</dt>   
+            <dt><input type="checkbox" name="Swimming Pool" value="Swimming Pool">Swimming Pool</dt>
+            <dt><input type="checkbox" name="Outdoor Kitchen" value="Outdoor Kitchen">Outdoor Kitchen</dt>
+            <dt><input type="checkbox" name="Attic" value="Attic">Attic</dt>
+            <dt><input type="checkbox" name="Basement" value="Basement">Basement</dt>
+            </dl>
+            <h4>Which of these rooms are not necessary in your home?</h4>
+            <dl>
+            <dt><input type="checkbox" name="Home Offices" value="Home Offices">Home Offices</dt>
+            <dt><input type="checkbox" name="Playroom" value="Playroom">Playroom</dt>
+            <dt><input type="checkbox" name="Home Theaters" value="Home Theaters">Home Theaters</dt>
+            <dt><input type="checkbox" name="Guest Rooms" value="Guest Rooms">Guest Rooms</dt>
+            <dt><input type="checkbox" name="Laundry Room" value="Laundry Room">Laundry Room</dt>
+            <dt><input type="checkbox" name="Exercise Room" value="Exercise Room">Exercise Room</dt>
+            <dt><input type="checkbox" name="Library" value="Library">Library</dt> 
+            <dt><input type="checkbox" name="Garage" value="Garage">Garage</dt>   
+            <dt><input type="checkbox" name="Swimming Pool" value="Swimming Pool">Swimming Pool</dt>
+            <dt><input type="checkbox" name="Outdoor Kitchen" value="Outdoor Kitchen">Outdoor Kitchen</dt>
+            <dt><input type="checkbox" name="Attic" value="Attic">Attic</dt>
+            <dt><input type="checkbox" name="Basement" value="Basement">Basement</dt>
+            </dl>
+            </fieldset>
+            <br />
+            <fieldset>
+                <h4>How did you learn about Astra Real Estate?</h4>
+                <input type="radio" name="Facebook" value="Facebook">Facebook
+                <input type="radio" name="Twitter" value="Twitter">Twitter
+                <input type="radio" name="Instagram" value="Instagram">Instagram
+                <input type="radio" name="Flyers" value="Flyers">Flyers
+                <input type="radio" name="Ads" value="Ads">Ads
+                
+                <h4>Where do you usually expect to find about Real Estate Companies?</h4>
+                <input type="text" name="expectation" size="20" maxlength="20">
+
+                <h4>Which part of our website needs more improvement/s?</h4>
+                <dt><input type="checkbox" name="Home" value="Home">Home</dt>
+                <dt><input type="checkbox" name="Services" value="Services">Services</dt>
+                <dt><input type="checkbox" name="Contact" value="Contact">Contact</dt>
+
+                <h4>Did the features of this website satisfy your needs and expectations?</h4>
+                <input type="radio" name="Yes" value="Yes">Yes
+                <input type="radio" name="No" value="No">No
+
+                <h4>Please rate the functionality of our website  [1 as the lowest and 5 as the highest]</h4>
+                <input type="text" name="rate" size="2" maxlength="3">
+
+            </fieldset>
+            <h4>Comment/Suggestions:</h4>
+            <textarea rows="15" cols="50" id="suggest"> </textarea>
+            <br />
+            <input type="Submit" value="Submit">
+            <input type="Reset" value="Reset">
+        </form>
+        </section>
+        <hr />
+        <a href="#top" align="left">Back to Top</a>
+        <footer>
+            <div style="text-align:center">
+                <p>
+                    @Astra Real Estate Copyright 2023 
+                </p> 
+            </div>
+        </footer>
+
+        
+    </body>
+</html>
